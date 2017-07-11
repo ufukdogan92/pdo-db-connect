@@ -9,7 +9,7 @@ class postgresql extends PDO implements db{
 		);
  
 		try {
-			parent::__construct($con, $user, $passwd,$options); 
+			PDO::__construct($con, $user, $passwd,$options); 
             
 		} catch (PDOException $e) {
 			$this->error = $e->getMessage();
