@@ -1,5 +1,5 @@
 <?php
-class mysql extends postgresql{   
+class mysql extends dbconnection{   
 	public function __construct($host,$db, $user="", $passwd="") {
 		$con = "mysql:host=".$host.";dbname=".$db;
 		$options = array( 

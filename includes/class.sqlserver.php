@@ -1,5 +1,5 @@
 <?php
-class sqlserver extends postgresql{   
+class sqlserver extends dbconnection{   
 	public function __construct($host,$db, $user="", $passwd="") { 
         $con = "sqlsrv:Server=".$host.";Database=".$db;
         
