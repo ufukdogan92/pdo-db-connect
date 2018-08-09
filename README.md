@@ -6,7 +6,7 @@ Database connection with PDO
 # Installation
 
 ```json
-"ufukdogan92/pdo-db-connect": "v2.0.0"
+"ufukdogan92/pdo-db-connect": "v2.0.3"
 ```
 
 or run

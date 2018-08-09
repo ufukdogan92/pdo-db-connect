@@ -5,7 +5,7 @@
     "homepage": "http://github.com/ufukdogan92/pdo-db-connect",
     "license": "MIT",
     "keywords": ["pdo", "mysql", "mssql", "sqlserver", "database"],
-    "version": "v2.0.0",
+    "version": "v2.0.3",
     "authors": [
         {
             "name": "Ufuk Dogan",
@@ -21,7 +21,7 @@
             "PdoDbConnect\\PdoDbConnect\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-*",
     "prefer-stable": true
 }
 
