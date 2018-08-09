@@ -1,5 +1,5 @@
 <?php
-class sqlserver extends dbconnection{   
+class SqlServer extends DbConnection {
 	public function __construct($host,$db, $user="", $passwd="") { 
         $con = "sqlsrv:Server=".$host.";Database=".$db;
         

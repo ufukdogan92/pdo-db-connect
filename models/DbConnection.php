@@ -1,5 +1,5 @@
 <?php
-class dbconnection extends PDO implements db{   
+class DbConnection extends PDO implements db{
 	public function __construct($con, $user="", $passwd="") {
 		
 		$options = array( 

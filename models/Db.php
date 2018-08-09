@@ -1,5 +1,5 @@
 <?php  
-	interface db{
+	interface Db{
 		 
 		public function run($sql, $bind);
 		public function cleanup($bind);

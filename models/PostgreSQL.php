@@ -1,5 +1,5 @@
 <?php
-class postgresql extends dbconnection{   
+class PostgreSQL extends DbConnection {
 	public function __construct($host,$db, $user="", $passwd="") {
 		$con = "pgsql:dbname=".$db.";host=".$host;
         

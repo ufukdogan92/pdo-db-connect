@@ -1,0 +1,17 @@
+{
+    "name": "ufukdogan92/pdo-db-connect",
+    "description": "pdo-db-connect",
+    "authors": [
+        {
+            "name": "pdo-db-connect",
+            "email": "ufukdogan92@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0": { "": "models/" }
+    }
+}
+
