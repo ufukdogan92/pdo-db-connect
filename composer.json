@@ -1,10 +1,15 @@
 {
     "name": "ufukdogan92/pdo-db-connect",
     "description": "pdo-db-connect",
+    "homepage": "http://github.com/ufukdogan92/pdo-db-connect",
+    "license": "MIT",
+    "keywords": ["pdo", "mysql", "mssql", "sqlserver", "database"],
+    "version": "0.0.1",
     "authors": [
         {
-            "name": "pdo-db-connect",
-            "email": "ufukdogan92@gmail.com"
+            "name": "Ufuk Dogan",
+            "email": "ufukdogan92@gmail.com",
+            "homepage": "http://github.com/ufukdogan92/pdo-db-connect"
         }
     ],
     "require": {
