@@ -20,6 +20,8 @@
         "psr-4": {
             "PdoDbConnect\\PdoDbConnect\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
 
